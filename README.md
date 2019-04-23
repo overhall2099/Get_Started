@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introdução
 
 Esta é uma aplicação criada com o CronApp IDE.
@@ -22,3 +23,7 @@ Esta é uma aplicação criada com o CronApp IDE.
 ## Referências
 
 [CronApp IDE](http://www.cronapp.io/)
+=======
+# Get_Started
+Projeto do Get Started do Cronapp
+>>>>>>> branch 'master' of https://github.com/overhall2099/Get_Started.git

@@ -1,0 +1,30 @@
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "RESERVA" not found; SQL statement:
+SELECT id FROM "RESERVA" WHERE id <> id [42102-197]
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "LIVRO" not found; SQL statement:
+SELECT id FROM "LIVRO" WHERE id <> id [42102-197]
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT id FROM "USER" WHERE id <> id [42102-197]
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "ROLE" not found; SQL statement:
+SELECT fk_user FROM "ROLE" WHERE fk_user <> fk_user [42102-197]
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DEVICE" not found; SQL statement:
+SELECT id FROM "DEVICE" WHERE id <> id [42102-197]
+2019-04-22 14:25:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""USER"" ADD CONSTRAINT UNQ_""USER""[*]_0 UNIQUE (login)"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+ALTER TABLE "USER" ADD CONSTRAINT UNQ_"USER"_0 UNIQUE (login) [42001-197]
+2019-04-23 15:41:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""USER"" DROP CONSTRAINT UNQ_""USER""[*]_0"; SQL statement:
+ALTER TABLE "USER" DROP CONSTRAINT UNQ_"USER"_0 [42000-197]
+2019-04-23 15:41:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""USER"" ADD CONSTRAINT UNQ_""USER""[*]_0 UNIQUE (login)"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+ALTER TABLE "USER" ADD CONSTRAINT UNQ_"USER"_0 UNIQUE (login) [42001-197]
+2019-04-23 16:31:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""USER"" DROP CONSTRAINT UNQ_""USER""[*]_0"; SQL statement:
+ALTER TABLE "USER" DROP CONSTRAINT UNQ_"USER"_0 [42000-197]
+2019-04-23 16:31:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "ALTER TABLE ""USER"" ADD CONSTRAINT UNQ_""USER""[*]_0 UNIQUE (login)"; expected "., COMMENT, PRIMARY, INDEX, KEY, CHECK, UNIQUE, FOREIGN"; SQL statement:
+ALTER TABLE "USER" ADD CONSTRAINT UNQ_"USER"_0 UNIQUE (login) [42001-197]
